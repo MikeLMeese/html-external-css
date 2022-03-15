@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    font-family: serif;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: black;
+    height: 98px;
+}
+h1 {
+    display: block;
+    float: left;
+    margin: 0px;
+    border: 0px;
+    padding: 20px;
+    color: white;
+    background-color: purple;
+    font-size: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    padding: 20px;
+    margin-right: 40px;
+
+}
+.sections {
+    display: flex;
+    justify-content: space-between;
+}
+.sections, .shopping {
+    color: white;
+}
+.shopping {
+    padding-right: 100px;
+}
